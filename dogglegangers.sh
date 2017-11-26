@@ -8,3 +8,5 @@ javac  -cp .:./libs/* src/*.java
 java  -cp .:./libs/* src/TakePicture &>/dev/null
 open src/test.png
 python3 src/FaceAPI3.py
+
+python3 src/FetchADog.py

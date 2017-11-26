@@ -15,4 +15,4 @@ if emotion1_emotion == emotion2_emotion:
 else:
     print ('Not even close:')
     print ('First photo: ' + emotion1_emotion)
-    print ('Your photo: ' + emotion2_emotion)
+    print ('Second photo: ' + emotion2_emotion)

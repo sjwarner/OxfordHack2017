@@ -27,5 +27,6 @@ public class TakePicture {
 
 		// save image to PNG file
 		ImageIO.write(image, "PNG", new File("src/test.png"));
-	}
+        
+    }
 }
