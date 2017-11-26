@@ -10,7 +10,8 @@ emotion2_emotion = emotion2.split(',', 1)[0]
 emotion2_confidence = float(emotion2.split(',', 1)[1])
 
 if emotion1_emotion == emotion2_emotion:
-    print ('Difference: ' + str(((emotion2_confidence - emotion1_confidence)/emotion1_confidence)*100) + '%')
+    print ('You matched the emotion! The emotion we saw was ' + emotion1_emotion)
+    print ('The percentage difference between you guys was ' + str(((emotion2_confidence - emotion1_confidence)/emotion1_confidence)*100) + '%')
 else:
     print ('Not even close:')
     print ('First photo: ' + emotion1_emotion)
